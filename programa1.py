@@ -21,4 +21,4 @@ import streamlit as st
 d = st.date_input("When's your birthday", value=None)
 st.write("Your birthday is:", d)
 
-st.image("https://www.campus.uni-konstanz.de/sites/unikn/files/styles/artikel_big/public/field/titelbild/Fruit%20bats%20emerging%20at%20dusk%20in%20Kasanka%20National%20Park-Christian%20Ziegler-Max%20Planck%20Institute%20of%20Animal%20Behavior_0.jpg?itok=Pjmx6ie6", caption="Sunrise by the mountains")
+st.image("https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.jpg?w=1900&h=1426")
