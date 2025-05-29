@@ -8,17 +8,15 @@ openai_api_key = st.secrets["api_key"]
 # Create an OpenAI client.
 client = OpenAI(api_key=openai_api_key)
 
-prompt = st.chat_input("Ingresa alguna pregunta")
-if prompt==None:  
+prompt = st.chat_input("What is up?")
+if prompt==None:
    st.stop()
 
 with st.chat_message("user",avatar = "🦖"):
    st.markdown(prompt)
 
 # Generate a response using the OpenAI API.
-contexto = "En el curso del Cudd el maestro es Jóse Napoles"
 
-promptFinal = contexto + prompt
 stream = client.chat.completions.create(
         model="gpt-4o-mini",  
         messages=[
