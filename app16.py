@@ -16,7 +16,8 @@ with st.chat_message("user",avatar = "🦖🦖"):
    st.markdown(prompt)
 
 # Generate a response using the OpenAI API.
-contexto = "En el curso del Cudd es Jóse Napoles"
+contexto = "En el curso del Cudd el maestro es Jóse Napoles"
+
 promptFinal = contexto + prompt
 stream = client.chat.completions.create(
         model="gpt-4o-mini",  
