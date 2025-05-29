@@ -23,7 +23,7 @@ stream = client.chat.completions.create(
         model="gpt-4o-mini",  
         messages=[
             {"role": "system", "content": "You are an assistant."},
-            {"role": "user", "content": promptFinal}
+            {"role": "user", "content": prompt}
         ],
         max_tokens=800,
         temperature=0,
