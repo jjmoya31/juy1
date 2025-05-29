@@ -6,7 +6,7 @@ import streamlit as st
 st.title("💬 Repetidero (solo repite lo que dices)")
 
 # Entrada tipo chat (abajo de la pantalla)
-user_input = st.chat_input("dinosaurio​🐊🐊...")
+user_input = st.chat_input("dinosaurio​🐊🐊....")
 
 # Si el usuario escribe algo, mostramos los mensajes
 if user_input:
