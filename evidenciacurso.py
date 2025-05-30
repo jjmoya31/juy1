@@ -19,7 +19,7 @@ if nombre:
 
 st.write(multi)
 
-multi =''' Contenido: 
+multi = Contenido: 
 * 1.Situación Láctea  
 * 2.Composición de la leche  
 * 3.Propiedades y calidad  
