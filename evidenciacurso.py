@@ -12,3 +12,6 @@ nombre = st.text_input("Escribe tu nombre")
 
 if nombre:
     st.write(f"Hola, {nombre} 👋")
+
+import streamlit as st
+st.title("Contenido, 1.Situación Láctea, 2.Composición de la leche 3.Propiedades y calidad")
