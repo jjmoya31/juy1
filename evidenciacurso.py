@@ -14,4 +14,4 @@ if nombre:
     st.write(f"Hola, {nombre} 👋")
 
 import streamlit as st
-st.title("Contenido, 1.Situación Láctea 2.Composición de la leche 3.Propiedades y calidad 4. Microbiología de la leche")
+st.title("Contenido 1.Situación Láctea 2.Composición de la leche 3.Propiedades y calidad 4.Microbiología de la leche")
