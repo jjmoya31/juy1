@@ -13,7 +13,7 @@ nombre = st.text_input("Escribe tu nombre")
 if nombre:
     st.write(f"Hola, {nombre} 👋")
 
-# Widget: text_input
+
 nombre = st.text_input(" Revisa lo siguiente cual titulo es lo primero que veras")
 
 import streamlit as st
