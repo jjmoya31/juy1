@@ -14,14 +14,13 @@ nombre = st.text_input("Escribe tu nombre")
 if nombre:
     st.write(f"Hola, {nombre} 👋")
 
-st.write(multi)
-
 multi = '''Contenido: 
 * 1.Situación Láctea  
 * 2.Composición de la leche  
 * 3.Propiedades y calidad  
 * 4.Microbiología de la leche
 '''
+st.write(multi)
 
 st.write("Instrucciones: anota en el buscador un tema del contenido para iniciar el aprendizaje")
 
