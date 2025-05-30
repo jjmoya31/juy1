@@ -1,8 +1,10 @@
-st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwjLZoqdSVYx60Zw7ieTIvL-GSqM29w2GcoSz0e3nVvVtbBq6OvMQ1Bs1l2dBnn4axXNc&usqp=CAU")
+
+
 
 import streamlit as st
 
 st.title(":green[Asistente virtual del curso de Tecnología de la leche]")
+st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwjLZoqdSVYx60Zw7ieTIvL-GSqM29w2GcoSz0e3nVvVtbBq6OvMQ1Bs1l2dBnn4axXNc&usqp=CAU")
 
 st.image("https://luisartica.wordpress.com/wp-content/uploads/2020/04/tecnologia-de-leche-ii.jpg?w=500")
 
@@ -17,5 +19,6 @@ if nombre:
 
 
 
-import streamlit as st
-st.write("Contenido 1.Situación Láctea 2.Composición de la leche 3.Propiedades y calidad 4.Microbiología de la leche")
+multi = '''Contenido"""
+* 1.Situación Láctea  * 2.Composición de la leche  *3.Propiedades y calidad  *4.Microbiología de la leche")
+st.write(multi)
