@@ -1,11 +1,11 @@
 import streamlit as st
 
-st.title(":red[Asistente virtual del curso de Tecnología de la leche]")
+st.title(":green[Asistente virtual del curso de Tecnología de la leche]")
 
 st.image("https://luisartica.wordpress.com/wp-content/uploads/2020/04/tecnologia-de-leche-ii.jpg?w=259")
 
 import streamlit as st
-st.title("Ejemplo de entrada de texto")
+st.title("Bienvenido, aprenderás mucho del mundo de la leche y sus productos")
 
 # Widget: text_input
 nombre = st.text_input("Escribe tu nombre")
