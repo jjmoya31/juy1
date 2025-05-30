@@ -24,6 +24,6 @@ multi = '''Contenido:
 * 2.Composición de la leche  
 * 3.Propiedades y calidad  
 * 4.Microbiología de la leche
-...
+'''
 
 st.write(multi)
