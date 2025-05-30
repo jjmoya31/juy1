@@ -16,10 +16,10 @@ if nombre:
     st.write(f"Hola, {nombre} 👋")
 
 multi = '''Contenido: 
-* 1.Situación Láctea de la leche a nivel mundial 
-* 2.Composición de la leche  
-* 3.Propiedades y calidad  
-* 4.Microbiología de la leche
+* Situación Láctea de la leche a nivel mundial 
+* Composición de la leche  
+* Propiedades y calidad  
+* Microbiología de la leche
 '''
 st.write(multi)
 
