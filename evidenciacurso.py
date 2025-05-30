@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title(":green[Asistente virtual del curso de Tecnología de la leche]")
-st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwjLZoqdSVYx60Zw7ieTIvL-GSqM29w2GcoSz0e3nVvVtbBq6OvMQ1Bs1l2dBnn4axXNc&usqp=CAU")
+st.sidebar.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwjLZoqdSVYx60Zw7ieTIvL-GSqM29w2GcoSz0e3nVvVtbBq6OvMQ1Bs1l2dBnn4axXNc&usqp=CAU")
 
 st.image("https://luisartica.wordpress.com/wp-content/uploads/2020/04/tecnologia-de-leche-ii.jpg?w=500")
 
