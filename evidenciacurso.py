@@ -1,6 +1,3 @@
-
-
-
 import streamlit as st
 
 st.title(":green[Asistente virtual del curso de Tecnología de la leche]")
@@ -19,7 +16,7 @@ if nombre:
 
 st.write(multi)
 
-multi = Contenido: 
+multi = '''Contenido: 
 * 1.Situación Láctea  
 * 2.Composición de la leche  
 * 3.Propiedades y calidad  
