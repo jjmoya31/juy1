@@ -1,3 +1,5 @@
+st.image("https://lh4.googleusercontent.com/proxy/G5-2LYxrjTbpNJCjU_PWqa6MPNu8tOZVtc_6bhfw-g5QH_LqGYsqLE5GBzY9Yq3MHil-UkEN3jJrt3oPP8vbQbUGbN2goMwZQntMm0xe4B6ZdqH2Cbb6Rri5GgQ31Y73Wue_DKkEIaboIN4")
+
 import streamlit as st
 
 st.title(":green[Asistente virtual del curso de Tecnología de la leche]")
@@ -16,4 +18,4 @@ if nombre:
 
 
 import streamlit as st
-st.title("Contenido 1.Situación Láctea 2.Composición de la leche 3.Propiedades y calidad 4.Microbiología de la leche")
+st.write("Contenido 1.Situación Láctea 2.Composición de la leche 3.Propiedades y calidad 4.Microbiología de la leche")
